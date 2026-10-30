@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ResearchHub</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="app">
+    <header>
+      <h1>🔎 ResearchHub</h1>
+      <p>Explore. Research. Understand.</p>
+    </header>
+
+    <main>
+      <div class="search-box">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search for anything..."
+        />
+
+        <button id="searchBtn">Search</button>
+    <button onclick="showIdea()">💡 Idea</button>    
+      </div>
+
+      <h2>Explore Topics</h2>
+
+      <div class="topics">
+        <button>🌎 World</button>
+        <button>🔬 Science</button>
+        <button>⚽ Sports</button>
+        <button>💻 Technology</button>
+        <button>📜 History</button>
+        <button>💰 Business</button>
+        <button>🎨 Arts & Culture</button>
+        <button>🧠 Education</button>
+      </div>
+<div class="research-tools">
+
+  <button onclick="showHistory()">
+    🕘 Search History
+  </button>
+
+  <button onclick="showSaved()">
+    ⭐ Saved Research
+  </button>
+
+</div>
+      <div id="results">
+        <h2>Research Results</h2>
+        <p>Search for a topic to begin your research.</p>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+  
+
+  
+    
